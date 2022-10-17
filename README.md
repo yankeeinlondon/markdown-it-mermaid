@@ -2,13 +2,16 @@
 
 Mermaid plugin for markdown-it.
 
-
 ## Installation
 
+```sh
+# pnpm
+pnpm install -D mdi-mermaid
+# yarn
+yarn install -D mdi-mermaid
+# npm
+npm install --save-dev mdi-mermaid
 ```
-yarn install markdown-it-mermaid
-```
-
 
 ## Usage
 
@@ -49,7 +52,6 @@ You can `loadPreferences` from any preferences store as long as it supports the 
 
 `mdi.mermaid.loadPreferences` could be invoked multiple times. And the preferences applied later will override ones applied earlier.
 
-
 ## Development
 
 ### Build
@@ -69,7 +71,6 @@ yarn test
 ```
 yarn release && npm publish
 ```
-
 
 ## Todo
 
